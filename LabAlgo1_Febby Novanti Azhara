@@ -1,0 +1,60 @@
+
+1.Meminta User Meng-input Suatu Nilai
+
+#include <iostream>
+using namespace std;
+
+void main(){
+	cout << "Hello, Welcome to Visual Studio C++ \n";
+	cout << "Happy Programming...";
+
+	cout << "\n\n";
+	system ("pause");
+}
+
+2.Meminta User Meng-input Suatu Nilai
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void main (){
+	string nama;
+
+	cout << "Input Sebuah Nama ? ";
+	cin  >> nama;
+
+	cout << "Nama yang Kamu Input adalah: " << nama;
+
+	cout << "\n\n";
+	system ("pause");
+}
+
+3.Membuat dan Memanggil Modul Program
+
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+void inputNama(); //deklarasi modul
+
+void main(){
+	inputNama(); //memanggil modul inputNama
+
+	cout << "\n\n";
+	system ("pause");
+}
+
+void inputNama (){ //modul inputNama
+	string nama;
+
+	cout << "input sebuah nama ? ";
+	cin  >> nama;
+
+	cout << "Nama Yang Kamu Input Adalah: " << nama;
+}
+
+
+Kesimpulan 
+Dalam praktikum ini kita mempelajari Bahasa program Visual C++ dengan aplikasi Microsoft Visual Studio 2010 dan membuat sebuah program sederhana. Dalam program 1 yang dibuat, kita menggunakan cout.  Cout sendiri adalah syntak untuk mengoutputkan atau menampilkan hasil ke dalam layar. Sedangkan dalam program 2 menggunakan cin, cin adalah syntak untuk menginputkan data oleh user. Dalam pembuatan program menurut saya membutuhkan ketelitian karena jika saat mengetikan syntak yang salah atau terlewat satu kata akan error atau data yang di hasilkan akan berbeda.
